@@ -1,6 +1,0 @@
-framework module FireValFramework {
-  umbrella header "FireValFramework-umbrella.h"
-
-  export *
-  module * { export * }
-}

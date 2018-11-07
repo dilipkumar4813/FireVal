@@ -6,5 +6,5 @@ target 'FireValSample' do
   use_frameworks!
 
   # Pods for FireValSample
-  pod 'FireVal', :path => '../FireVal/'
+  pod 'FireVal', '~> 1.0'
 end

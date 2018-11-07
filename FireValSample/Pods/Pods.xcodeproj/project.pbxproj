@@ -7,97 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		406B9C8841DA4AF8DF0B6C5A30B9A215 /* FireValFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C280B71B14F210E772DB8C0119D703D0 /* FireValFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63AF98DDA6A237A2D71AF3A2B35DAFC1 /* FireVal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1292F576374791C536963204C574BBE8 /* FireVal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D9D84E693E0A441B2E5FD167D07B898 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 28A18A36DB85751FDADBAA36A3BB4150 /* Info.plist */; };
-		9A9E7B83DFFEAC657A2B687631CA6FF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A05670CB330463EF4D0F66726E214296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A912C04FFFE6A6329DEE7AA67CEA0024 /* BasicValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D996B0EE87DCFF19C62478A10334A18 /* BasicValidations.swift */; };
-		BC961ADFC18A55505C40EBC56A60970E /* Pods-FireValSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F977CF2AF56B0C63B30370E8D7B2E8E9 /* Pods-FireValSample-dummy.m */; };
-		CB60FFA0D0BFE53AFA0EE12B53B65904 /* FireValFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD43B3C5B834913B93421E3BA844D73 /* FireValFramework-dummy.m */; };
-		E314F314CF29E565AF0B5DA4A13E8331 /* Pods-FireValSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789FF7C31D2419DBF419DF56F318AA96 /* Pods-FireValSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B0C0368395EF24DD868B689B871867F /* FireVal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCDADFE5A7157FF286D04177A6A700C /* FireVal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C547C4D3439A90BB9254AA266514CCA /* Pods-FireValSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789FF7C31D2419DBF419DF56F318AA96 /* Pods-FireValSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5600F472E58793924D4B336C355F6FCF /* FireVal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8168EB296D24961E861F3A11923A3 /* FireVal-dummy.m */; };
+		5C70B3907D6E01804E8F91C802BF59A6 /* FireVal.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAB3E97D35EC3FC6AFC3472928AED20 /* FireVal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C27706D6F11D1CB931BAF7FF7DAB27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8AB05407ABF6599E838ED45BBEF802FC /* BasicValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46512455478778DD9ACE3AA6C83624CA /* BasicValidations.swift */; };
+		940CFBC9B20A7526BFD3AF33772A3C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ADF86CBB100BD42AF26BAF3BBAA79D6E /* Pods-FireValSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F977CF2AF56B0C63B30370E8D7B2E8E9 /* Pods-FireValSample-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F8780D3C722A828813C9E0F5E7940822 /* PBXContainerItemProxy */ = {
+		3A8F55D14EC9B3D82706635D98C503E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D35F911CF8CD3BF3E6F5CDC0B2090FA;
-			remoteInfo = FireValFramework;
+			remoteGlobalIDString = DC4565E8E997BAD2B8F7CF36A4423749;
+			remoteInfo = FireVal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		024D696ADEC7E7CD1AC3727EF344CC76 /* FireValFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FireValFramework-prefix.pch"; sourceTree = "<group>"; };
+		00D8168EB296D24961E861F3A11923A3 /* FireVal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FireVal-dummy.m"; sourceTree = "<group>"; };
 		0298A468A42B169E7AF4C9F655BD755B /* Pods-FireValSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FireValSample-frameworks.sh"; sourceTree = "<group>"; };
-		1292F576374791C536963204C574BBE8 /* FireVal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FireVal.h; path = FireVal/FireVal.h; sourceTree = "<group>"; };
-		28A18A36DB85751FDADBAA36A3BB4150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = FireVal/Info.plist; sourceTree = "<group>"; };
-		2F5E9E79636BC5BE219277704B69A19C /* FireValFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FireValFramework.framework; path = FireValFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B22530EA3F07132309D4E61EC8F5BEA /* Pods_FireValSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FireValSample.framework; path = "Pods-FireValSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31829B90CE8AAA888FD99D36BE0520FB /* Pods-FireValSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FireValSample.modulemap"; sourceTree = "<group>"; };
-		3BD43B3C5B834913B93421E3BA844D73 /* FireValFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FireValFramework-dummy.m"; sourceTree = "<group>"; };
 		427811ACEC51547ECC1ACB145243FC4B /* Pods-FireValSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FireValSample-acknowledgements.plist"; sourceTree = "<group>"; };
-		57593B695D08727C9ED2A8207D512A58 /* FireValFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FireValFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46512455478778DD9ACE3AA6C83624CA /* BasicValidations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicValidations.swift; path = FireVal/FireVal/BasicValidations.swift; sourceTree = "<group>"; };
 		58BA81990CB8FDA62DB4AC6B2EEE4371 /* Pods-FireValSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FireValSample-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A3DD97EBB61F367807E3D11448AB4C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745CEA96D42EB4AA712F293A6C6C09D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		789FF7C31D2419DBF419DF56F318AA96 /* Pods-FireValSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FireValSample-umbrella.h"; sourceTree = "<group>"; };
-		7D996B0EE87DCFF19C62478A10334A18 /* BasicValidations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicValidations.swift; path = FireVal/BasicValidations.swift; sourceTree = "<group>"; };
+		7D2AE67B0AA2876B62F3B53111561285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8442D9F32B5C79F5FC8201E0F6223515 /* Pods-FireValSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FireValSample.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A85991A3A56783D2BDC929876D123E9F /* Pods_FireValSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FireValSample.framework; path = "Pods-FireValSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C280B71B14F210E772DB8C0119D703D0 /* FireValFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FireValFramework-umbrella.h"; sourceTree = "<group>"; };
-		DA1EF1EAC4C2F22770CAA8D896F40AC0 /* FireValFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FireValFramework.xcconfig; sourceTree = "<group>"; };
-		DBE0C6297F7FE453627A30416B620D2E /* FireValFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FireValFramework.modulemap; sourceTree = "<group>"; };
+		960FC05835249E47DFAF96B58801BF3C /* FireVal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FireVal-prefix.pch"; sourceTree = "<group>"; };
+		A0D300A104FF3C60302FFEE9A2C1D49F /* FireVal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FireVal.modulemap; sourceTree = "<group>"; };
+		A6A41621E9691F4C6F28A605B0B0ECD4 /* FireVal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FireVal.framework; path = FireVal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCDADFE5A7157FF286D04177A6A700C /* FireVal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FireVal-umbrella.h"; sourceTree = "<group>"; };
+		D2E6B2C0E3EA2C80C37881597608EECB /* FireVal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FireVal.xcconfig; sourceTree = "<group>"; };
+		DDAB3E97D35EC3FC6AFC3472928AED20 /* FireVal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FireVal.h; path = FireVal/FireVal/FireVal.h; sourceTree = "<group>"; };
 		EF5C5D88086B4DFECBBDCDB5277E0E51 /* Pods-FireValSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FireValSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F977CF2AF56B0C63B30370E8D7B2E8E9 /* Pods-FireValSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FireValSample-dummy.m"; sourceTree = "<group>"; };
 		FA9EDBF9227049C14D855EA2810FD716 /* Pods-FireValSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FireValSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13044C7E1687C9D5BD2DCEECF863A2C4 /* Frameworks */ = {
+		3A4ABD64575733CCCD377034AB3274A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9E7B83DFFEAC657A2B687631CA6FF0 /* Foundation.framework in Frameworks */,
+				69C27706D6F11D1CB931BAF7FF7DAB27 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		450F5B347DEAFF24FC4EEEF1CB6913CB /* Frameworks */ = {
+		EC377E06812944B5FA7A68DE1BF4C30F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05670CB330463EF4D0F66726E214296 /* Foundation.framework in Frameworks */,
+				940CFBC9B20A7526BFD3AF33772A3C56 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		118ECEA5BD0DD7F88BB5F1208ADC773D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DBE0C6297F7FE453627A30416B620D2E /* FireValFramework.modulemap */,
-				DA1EF1EAC4C2F22770CAA8D896F40AC0 /* FireValFramework.xcconfig */,
-				3BD43B3C5B834913B93421E3BA844D73 /* FireValFramework-dummy.m */,
-				024D696ADEC7E7CD1AC3727EF344CC76 /* FireValFramework-prefix.pch */,
-				C280B71B14F210E772DB8C0119D703D0 /* FireValFramework-umbrella.h */,
-				6A3DD97EBB61F367807E3D11448AB4C0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../FireValSample/Pods/Target Support Files/FireValFramework";
-			sourceTree = "<group>";
-		};
-		1A8E57C9959532C13A5C25DCFEEBC85C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F5E9E79636BC5BE219277704B69A19C /* FireValFramework.framework */,
-				A85991A3A56783D2BDC929876D123E9F /* Pods_FireValSample.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		2B3BEE6AEC61DECD92B95CF7DC10CD8F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,36 +80,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7622CC6A4DF091B3DC3CB28E73C6CB8B /* FireValFramework */ = {
+		45497F673DB60D19AC66E2224792F008 /* FireVal */ = {
 			isa = PBXGroup;
 			children = (
-				7D996B0EE87DCFF19C62478A10334A18 /* BasicValidations.swift */,
-				1292F576374791C536963204C574BBE8 /* FireVal.h */,
-				28A18A36DB85751FDADBAA36A3BB4150 /* Info.plist */,
-				8A2E36261EDBA301A24EA87A9BF6C59E /* Pod */,
-				118ECEA5BD0DD7F88BB5F1208ADC773D /* Support Files */,
+				46512455478778DD9ACE3AA6C83624CA /* BasicValidations.swift */,
+				DDAB3E97D35EC3FC6AFC3472928AED20 /* FireVal.h */,
+				AF15F9AA04702EEC2C9B2663C19A2AE1 /* Support Files */,
 			);
-			name = FireValFramework;
-			path = ../../FireVal;
+			name = FireVal;
+			path = FireVal;
+			sourceTree = "<group>";
+		};
+		4D7DED9FF8D02C0FB212BEF3FEF30C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A41621E9691F4C6F28A605B0B0ECD4 /* FireVal.framework */,
+				0B22530EA3F07132309D4E61EC8F5BEA /* Pods_FireValSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEF257AB90AAB308D1246BEE31D3456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45497F673DB60D19AC66E2224792F008 /* FireVal */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				ADCBC9385A3D7F91909E5E2E1BA6A7C6 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1A8E57C9959532C13A5C25DCFEEBC85C /* Products */,
+				4FEF257AB90AAB308D1246BEE31D3456 /* Pods */,
+				4D7DED9FF8D02C0FB212BEF3FEF30C22 /* Products */,
 				2B3BEE6AEC61DECD92B95CF7DC10CD8F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8A2E36261EDBA301A24EA87A9BF6C59E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				57593B695D08727C9ED2A8207D512A58 /* FireValFramework.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		923C1A0A90536E12E0BD3BC73561DDE3 /* Pods-FireValSample */ = {
@@ -156,12 +137,18 @@
 			path = "Target Support Files/Pods-FireValSample";
 			sourceTree = "<group>";
 		};
-		ADCBC9385A3D7F91909E5E2E1BA6A7C6 /* Development Pods */ = {
+		AF15F9AA04702EEC2C9B2663C19A2AE1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7622CC6A4DF091B3DC3CB28E73C6CB8B /* FireValFramework */,
+				A0D300A104FF3C60302FFEE9A2C1D49F /* FireVal.modulemap */,
+				D2E6B2C0E3EA2C80C37881597608EECB /* FireVal.xcconfig */,
+				00D8168EB296D24961E861F3A11923A3 /* FireVal-dummy.m */,
+				960FC05835249E47DFAF96B58801BF3C /* FireVal-prefix.pch */,
+				ACCDADFE5A7157FF286D04177A6A700C /* FireVal-umbrella.h */,
+				7D2AE67B0AA2876B62F3B53111561285 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/FireVal";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -183,59 +170,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28748C7448AB69071E3E4C6618152947 /* Headers */ = {
+		C5AD95C6A098968FEF5C6CCC39DC2E3F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63AF98DDA6A237A2D71AF3A2B35DAFC1 /* FireVal.h in Headers */,
-				406B9C8841DA4AF8DF0B6C5A30B9A215 /* FireValFramework-umbrella.h in Headers */,
+				3C547C4D3439A90BB9254AA266514CCA /* Pods-FireValSample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BCACDD5D5CFFC4D6C0679612AAB7430 /* Headers */ = {
+		FF8E39C5B1411F538CF09AB786C4502E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E314F314CF29E565AF0B5DA4A13E8331 /* Pods-FireValSample-umbrella.h in Headers */,
+				3B0C0368395EF24DD868B689B871867F /* FireVal-umbrella.h in Headers */,
+				5C70B3907D6E01804E8F91C802BF59A6 /* FireVal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		78FF8DE5B6BB8BCC61E869C104EB1036 /* Pods-FireValSample */ = {
+		C03019916BA4576E9C50D7718BB12839 /* Pods-FireValSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B6D18F1B3E03BD82942A5E3DB383E21 /* Build configuration list for PBXNativeTarget "Pods-FireValSample" */;
+			buildConfigurationList = 06A76312ED947BD02C23DCB6D8AAAD98 /* Build configuration list for PBXNativeTarget "Pods-FireValSample" */;
 			buildPhases = (
-				2A3FF0BEEE50BBDFB9D3799922112410 /* Sources */,
-				13044C7E1687C9D5BD2DCEECF863A2C4 /* Frameworks */,
-				2BCACDD5D5CFFC4D6C0679612AAB7430 /* Headers */,
+				F38AA937673E97BC61EDBC23058A5686 /* Sources */,
+				3A4ABD64575733CCCD377034AB3274A6 /* Frameworks */,
+				C5AD95C6A098968FEF5C6CCC39DC2E3F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				62ED7030A7103ECC3DA260726B61D895 /* PBXTargetDependency */,
+				CDCECB16E86C95D4C31CFAE6E6B43506 /* PBXTargetDependency */,
 			);
 			name = "Pods-FireValSample";
 			productName = "Pods-FireValSample";
-			productReference = A85991A3A56783D2BDC929876D123E9F /* Pods_FireValSample.framework */;
+			productReference = 0B22530EA3F07132309D4E61EC8F5BEA /* Pods_FireValSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D35F911CF8CD3BF3E6F5CDC0B2090FA /* FireValFramework */ = {
+		DC4565E8E997BAD2B8F7CF36A4423749 /* FireVal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D377209118C388A8B4174D3436A7289 /* Build configuration list for PBXNativeTarget "FireValFramework" */;
+			buildConfigurationList = BDFC67E15877C16952CF2750FEA2C388 /* Build configuration list for PBXNativeTarget "FireVal" */;
 			buildPhases = (
-				5328266BDAE63608C27A7D8B9E9A55C8 /* Sources */,
-				450F5B347DEAFF24FC4EEEF1CB6913CB /* Frameworks */,
-				28748C7448AB69071E3E4C6618152947 /* Headers */,
+				86A71A782C6125EEE8E32E9BB4EC6E5C /* Sources */,
+				EC377E06812944B5FA7A68DE1BF4C30F /* Frameworks */,
+				FF8E39C5B1411F538CF09AB786C4502E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FireValFramework;
-			productName = FireValFramework;
-			productReference = 2F5E9E79636BC5BE219277704B69A19C /* FireValFramework.framework */;
+			name = FireVal;
+			productName = FireVal;
+			productReference = A6A41621E9691F4C6F28A605B0B0ECD4 /* FireVal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -255,43 +242,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1A8E57C9959532C13A5C25DCFEEBC85C /* Products */;
+			productRefGroup = 4D7DED9FF8D02C0FB212BEF3FEF30C22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D35F911CF8CD3BF3E6F5CDC0B2090FA /* FireValFramework */,
-				78FF8DE5B6BB8BCC61E869C104EB1036 /* Pods-FireValSample */,
+				DC4565E8E997BAD2B8F7CF36A4423749 /* FireVal */,
+				C03019916BA4576E9C50D7718BB12839 /* Pods-FireValSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A3FF0BEEE50BBDFB9D3799922112410 /* Sources */ = {
+		86A71A782C6125EEE8E32E9BB4EC6E5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC961ADFC18A55505C40EBC56A60970E /* Pods-FireValSample-dummy.m in Sources */,
+				8AB05407ABF6599E838ED45BBEF802FC /* BasicValidations.swift in Sources */,
+				5600F472E58793924D4B336C355F6FCF /* FireVal-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5328266BDAE63608C27A7D8B9E9A55C8 /* Sources */ = {
+		F38AA937673E97BC61EDBC23058A5686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A912C04FFFE6A6329DEE7AA67CEA0024 /* BasicValidations.swift in Sources */,
-				CB60FFA0D0BFE53AFA0EE12B53B65904 /* FireValFramework-dummy.m in Sources */,
-				6D9D84E693E0A441B2E5FD167D07B898 /* Info.plist in Sources */,
+				ADF86CBB100BD42AF26BAF3BBAA79D6E /* Pods-FireValSample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		62ED7030A7103ECC3DA260726B61D895 /* PBXTargetDependency */ = {
+		CDCECB16E86C95D4C31CFAE6E6B43506 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FireValFramework;
-			target = 9D35F911CF8CD3BF3E6F5CDC0B2090FA /* FireValFramework */;
-			targetProxy = F8780D3C722A828813C9E0F5E7940822 /* PBXContainerItemProxy */;
+			name = FireVal;
+			target = DC4565E8E997BAD2B8F7CF36A4423749 /* FireVal */;
+			targetProxy = 3A8F55D14EC9B3D82706635D98C503E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,75 +339,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		2694ECC1108F67BEBA197F317153F7A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8442D9F32B5C79F5FC8201E0F6223515 /* Pods-FireValSample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FireValSample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FireValSample/Pods-FireValSample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		60A4825175AC45A49F73FDB0489EA0DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1EF1EAC4C2F22770CAA8D896F40AC0 /* FireValFramework.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FireValFramework/FireValFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FireValFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FireValFramework/FireValFramework.modulemap";
-				PRODUCT_MODULE_NAME = FireValFramework;
-				PRODUCT_NAME = FireValFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -486,7 +403,108 @@
 			};
 			name = Debug;
 		};
-		8D6E10B991C7F19AD242BB2E39CCDAE5 /* Debug */ = {
+		8A01E51735A9B67F7538C18BE120D140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E6B2C0E3EA2C80C37881597608EECB /* FireVal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FireVal/FireVal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FireVal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FireVal/FireVal.modulemap";
+				PRODUCT_MODULE_NAME = FireVal;
+				PRODUCT_NAME = FireVal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C9B068545B0387ACF2E195B27EE40B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E6B2C0E3EA2C80C37881597608EECB /* FireVal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FireVal/FireVal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FireVal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FireVal/FireVal.modulemap";
+				PRODUCT_MODULE_NAME = FireVal;
+				PRODUCT_NAME = FireVal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27F8741FB4BDCFC04D7D7A382EA80FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8442D9F32B5C79F5FC8201E0F6223515 /* Pods-FireValSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FireValSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FireValSample/Pods-FireValSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E44979F2EA147F23475E8F53A00CAAA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA9EDBF9227049C14D855EA2810FD716 /* Pods-FireValSample.debug.xcconfig */;
 			buildSettings = {
@@ -522,43 +540,18 @@
 			};
 			name = Debug;
 		};
-		C9B5FDF9554A2CA84E2FB6DEB7FACC67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1EF1EAC4C2F22770CAA8D896F40AC0 /* FireValFramework.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FireValFramework/FireValFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FireValFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FireValFramework/FireValFramework.modulemap";
-				PRODUCT_MODULE_NAME = FireValFramework;
-				PRODUCT_NAME = FireValFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		06A76312ED947BD02C23DCB6D8AAAD98 /* Build configuration list for PBXNativeTarget "Pods-FireValSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44979F2EA147F23475E8F53A00CAAA2 /* Debug */,
+				A27F8741FB4BDCFC04D7D7A382EA80FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -568,20 +561,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B6D18F1B3E03BD82942A5E3DB383E21 /* Build configuration list for PBXNativeTarget "Pods-FireValSample" */ = {
+		BDFC67E15877C16952CF2750FEA2C388 /* Build configuration list for PBXNativeTarget "FireVal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D6E10B991C7F19AD242BB2E39CCDAE5 /* Debug */,
-				2694ECC1108F67BEBA197F317153F7A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D377209118C388A8B4174D3436A7289 /* Build configuration list for PBXNativeTarget "FireValFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60A4825175AC45A49F73FDB0489EA0DB /* Debug */,
-				C9B5FDF9554A2CA84E2FB6DEB7FACC67 /* Release */,
+				8A01E51735A9B67F7538C18BE120D140 /* Debug */,
+				8C9B068545B0387ACF2E195B27EE40B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

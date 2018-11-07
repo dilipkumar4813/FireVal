@@ -1,16 +1,16 @@
 PODS:
-  - FireValFramework (1.0.0)
+  - FireVal (1.0.0)
 
 DEPENDENCIES:
-  - FireValFramework (from `../FireVal/`)
+  - FireVal (~> 1.0)
 
-EXTERNAL SOURCES:
-  FireValFramework:
-    :path: "../FireVal/"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FireVal
 
 SPEC CHECKSUMS:
-  FireValFramework: 9076260ae94e91cbf41466a028601066fc6e2776
+  FireVal: c175bdc3ac72f2366212ec279907f70199da419d
 
-PODFILE CHECKSUM: 92625b37135e9ce59122cd691dfbd87e006f179d
+PODFILE CHECKSUM: a64f0f19e761200a87ea35302638b09d3d010527
 
 COCOAPODS: 1.5.2

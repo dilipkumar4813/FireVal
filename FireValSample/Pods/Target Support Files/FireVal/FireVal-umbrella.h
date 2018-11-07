@@ -12,6 +12,6 @@
 
 #import "FireVal.h"
 
-FOUNDATION_EXPORT double FireValFrameworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char FireValFrameworkVersionString[];
+FOUNDATION_EXPORT double FireValVersionNumber;
+FOUNDATION_EXPORT const unsigned char FireValVersionString[];
 

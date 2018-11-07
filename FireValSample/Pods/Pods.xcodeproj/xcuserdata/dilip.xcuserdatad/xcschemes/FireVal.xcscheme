@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D35F911CF8CD3BF3E6F5CDC0B2090FA"
-               BlueprintName = "FireValFramework"
+               BlueprintIdentifier = "DC4565E8E997BAD2B8F7CF36A4423749"
+               BlueprintName = "FireVal"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "FireValFramework.framework">
+               BuildableName = "FireVal.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
