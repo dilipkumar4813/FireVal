@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FireVal"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Basic Validations FireValFramework."
   s.description  = <<-DESC 
 			FireValFramework built to make your development easier"
