@@ -1,0 +1,16 @@
+PODS:
+  - FireValFramework (1.0.0)
+
+DEPENDENCIES:
+  - FireValFramework (from `../FireVal/`)
+
+EXTERNAL SOURCES:
+  FireValFramework:
+    :path: "../FireVal/"
+
+SPEC CHECKSUMS:
+  FireValFramework: 9076260ae94e91cbf41466a028601066fc6e2776
+
+PODFILE CHECKSUM: 92625b37135e9ce59122cd691dfbd87e006f179d
+
+COCOAPODS: 1.5.2

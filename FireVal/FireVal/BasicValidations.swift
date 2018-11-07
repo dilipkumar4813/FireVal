@@ -10,13 +10,13 @@ import Foundation
 
 public class BasicValidations {
 	
-	func isValidUsername(username: String,minCharacters: Int, maxCharacters: Int) -> Bool {
+	public static func isValidUsername(username: String,minCharacters: Int, maxCharacters: Int) -> Bool {
 		let RegEx = "\\w{\(minCharacters),\(maxCharacters)}"
 		let Test = NSPredicate(format:"SELF MATCHES %@", RegEx)
 		return Test.evaluate(with: username)
 	}
 	
-	func isValidPassword(password: String) {
+	public static func isValidPassword(password: String) {
 		
 	}
 }
